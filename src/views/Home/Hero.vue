@@ -5,7 +5,7 @@
         <div class="px-4 sm:px-0 absolute inset-0 text-white">
             <div class="container mx-auto h-full flex flex-col justify-center">
                 <div>Welcome to</div>
-                <div class="mt-4 text-6xl font-bold">LaraTips</div>
+                <div class="mt-4 text-6xl font-bold">LaraVue3</div>
                 <div class="mt-6 sm:w-1/2">{{ settings.hero_description }}</div>
                 <div class="mt-8 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
