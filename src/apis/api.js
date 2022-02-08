@@ -1,6 +1,6 @@
 import axios from "axios"
 
 export default axios.create({
-    baseURL: 'http://be-blog.test/api/',
+    baseURL: 'https://be-laravue3.herokuapp.com/',
     timeout: 10000,
 });
