@@ -1,9 +1,10 @@
 <template>
   <router-link
-    class="block sm:inline-block sm:px-4 py-2 hover:text-primary transition-colors duration-300"
+    class="block sm:inline-block sm:px-4 py-2 hover:text-primary transition-colors duration-300 origin-link"
     :to="to"
   >
     {{ label }}
+    <slot></slot>
   </router-link>
 </template>
 

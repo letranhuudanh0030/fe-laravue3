@@ -9,8 +9,10 @@
     >
       <div class="w-full flex flex-row items-center justify-between">
         <div class="text-3xl font-bold">
-          <span :class="{ 'sm:text-white': !showWhiteBackground }">Lara</span>
-          <span class="text-primary">Vue3</span>
+          <router-link to="/" class="block sm:inline-block sm:px-4 py-2">
+            <span :class="{ 'sm:text-white': !showWhiteBackground }">Lara</span>
+            <span class="text-primary">Vue3</span>
+          </router-link>
         </div>
         <div>
           <button v-show="!isVisible" class="sm:hidden" @click="toggle">

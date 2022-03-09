@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#navbar .router-link-active {
+#navbar .router-link-active.origin-link {
   @apply text-primary;
 }
 
 @screen sm {
-  #navbar .router-link-active {
+  #navbar .router-link-active.origin-link {
     @apply text-current border-b-2 border-primary;
   }
 }
